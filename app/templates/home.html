@@ -1,1 +1,10 @@
-<h1>Home Page</h1>
+<section class="roombar-container">
+    <p>Bloc Chat</p>
+    <ul>
+        <li ng-repeat="room in rooms">{{ room.$value }}</li>
+    </ul>
+</section>
+
+<section class="chatroom-container">
+    <p>{{ main.chatRoomTitle }}</p>
+</section>
